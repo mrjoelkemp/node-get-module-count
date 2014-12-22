@@ -1,6 +1,6 @@
 {
   "name": "get-module-count",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Get the number of modules in your codebase",
   "main": "index.js",
   "directories": {
