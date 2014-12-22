@@ -1,0 +1,36 @@
+{
+  "name": "get-module-count",
+  "version": "1.0.0",
+  "description": "Get the number of modules in your codebase",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha test/test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mrjoelkemp/node-get-module-count.git"
+  },
+  "keywords": [
+    "module",
+    "count",
+    "dependencies",
+    "ast"
+  ],
+  "author": "Joel Kemp <joel@mrjoelkemp.com> (http://www.mrjoelkemp.com/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mrjoelkemp/node-get-module-count/issues"
+  },
+  "homepage": "https://github.com/mrjoelkemp/node-get-module-count",
+  "dependencies": {
+    "dependency-tree": "~1.3.3",
+    "get-driver-scripts": "~1.0.1",
+    "q": "~1.1.2"
+  },
+  "devDependencies": {
+    "mocha": "~2.0.1"
+  }
+}
