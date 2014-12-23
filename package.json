@@ -6,6 +6,9 @@
   "directories": {
     "test": "test"
   },
+  "bin": {
+    "get-module-count": "bin/cli.js"
+  },
   "scripts": {
     "test": "mocha test/test.js"
   },

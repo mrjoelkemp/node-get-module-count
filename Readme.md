@@ -30,3 +30,8 @@ This module works by getting the driver script (i.e., entry points) from the
 given directory. For each driver script, it will generate the memoized dependency tree
 for that script and then sum the number of unique modules across all the trees.
 
+### CLI
+
+You can invoke this as a shell command with a global install `npm install -g get-module-count`
+
+`get-module-count <directory>`
